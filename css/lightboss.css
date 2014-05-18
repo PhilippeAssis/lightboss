@@ -1,0 +1,119 @@
+.lightboss-style{
+	position:fixed;
+	z-index:999998;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;		
+}
+.lightboss-style div{
+	float:none;
+}
+.lightboss-style.black{
+	background-image:url('../images/bg-black.png');
+}
+.lightboss-style.white{
+	background-image:url('../images/bg-white.png');
+}
+.lightboss-style .content{
+	position:static;
+	background-color:#FFFFFF;	
+	margin:20% auto;
+	width:100px; /* default */
+	height:100px; /* default */
+	-moz-box-shadow: 0px 0px 10px #888;
+	-webkit-box-shadow: 0px 0px 10px #888;
+	box-shadow: 0px 0px 10px #888;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:solid 1px #cccccc;	
+
+}
+.lightboss-style .content .load{
+	overflow:hidden;
+	
+	width:auto;
+	height:auto;
+	background-color:#FFFFFF;
+}
+.lightboss-style .loader{
+	width:100px;
+	height:100px;			
+	margin:0 auto;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.lightboss-style .loader.indicator,.lightboss-style .loader.default{
+	background-image:url('../images/indicator.gif');
+}
+.lightboss-style .loader.pacman{
+	background-image:url('../images/pacman.gif');
+}
+.lightboss-style .loader.snake{
+	background-image:url('../images/snake.gif');
+}
+.lightboss-style .loader.arrows{
+	background-image:url('../images/arrows.gif');
+}
+.lightboss-style .loader.facebook{
+	background-image:url('../images/facebook.gif');
+}
+.lightboss-style .load iframe{
+	border:none;
+	padding:0px;
+}
+.lightboss-style .tools {
+	width: 16px;
+	height: auto;
+	position: static;
+	float: right;
+
+	margin-top: 0px;
+	z-index: 999998;
+	margin-top: -5px;
+	margin-right: -24px;
+}
+.lightboss-style .tools li{ 
+	float:left; 
+	clear:left; 
+	list-style:none;
+}
+.lightboss-style .tools li a{ 
+	float:left;
+	width:16px;
+	height:16px;	
+	opacity:0.8;
+	margin-bottom:5px;
+}
+.lightboss-style .tools li a.close{ 
+	background-image:url('../images/close.png');
+	background-repeat:no-repeat;
+	margin-left:5px;
+}
+.lightboss-style .arrows{	
+	z-index:999999;
+	width:30px;
+	height:45px;
+	position:absolute;
+	top:50%;	
+	margin-top:-22px;
+	background-repeat:no-repeat;
+	background-image:url('../images/arrows.png');
+	cursor:hand;
+	cursor:pointer;
+}
+.lightboss-style .arrows.left.default{
+	background-position:0 0;	
+}
+.lightboss-style .arrows.right.default{	
+	background-position:-60px 0;
+}
+.lightboss-style .arrows.left.ie7{
+	background-position:-30px 0;
+	left:5px;
+}
+.lightboss-style .arrows.right.ie7{	
+	background-position:-90px 0;
+	right:5px;
+}
